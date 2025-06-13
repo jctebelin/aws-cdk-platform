@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: auth
+        run: |
+          echo "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" | gh auth login --with-token
